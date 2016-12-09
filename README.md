@@ -16,11 +16,11 @@
 ```
 index.html
 contact.html
+aboutme.html
 ```
 
 <p><b>These pages will be updated soon:</b></p>
 ```
-aboutme.html
 computer-science.html
 photography.html
 travel.html
