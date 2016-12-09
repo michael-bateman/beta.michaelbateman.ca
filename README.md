@@ -6,10 +6,11 @@
 
 <p><b>Noteable improvements:</b></p>
 <p>
-	- Layout
-	- Nav Bar
-	- Content (look below)
+	<div>- Layout</div>
+	<div>- Nav Bar</div>
+	<div>- Content (look below)</div>
 </p>
+
 
 <p><b>These pages are completely been redesigned:</b></p>
 ```
