@@ -17,11 +17,11 @@
 index.html
 contact.html
 aboutme.html
+computer-science.html
 ```
 
 <p><b>These pages will be updated soon:</b></p>
 ```
-computer-science.html
 photography.html
 travel.html
 rowing.html
