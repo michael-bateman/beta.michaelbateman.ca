@@ -12,22 +12,32 @@
 </p>
 
 
-<p><b>These pages are completely been redesigned:</b></p>
+<p><b>These pages have completely been redesigned:</b></p>
 ```
 index.html
 contact.html
 aboutme.html
 computer-science.html
-```
-
-<p><b>These pages will be updated soon:</b></p>
-```
-photography.html
 travel.html
 rowing.html
 ```
 
+<p><b>These new pages have been added:</b></p>
+```
+
+```
+
+<p><b>These pages require a little more content and will be avalible within the next couple of days:</b></p>
+```
+photography.html
+```
+
+<p><b>These pages will be updated soon:</b></p>
+```
+
+```
+
 <p><b>New pages:</b></p>
 ```
-rowing.html
+hockey.html
 ```
