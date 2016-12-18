@@ -36,6 +36,7 @@ permalink: /404.html
                 <ul class="dropdown-menu">
                   <li><a href="aboutme.html">About Me</a></li>
                   <li class="divider"></li>
+                  <li><a href="education.html">Education</a></li>
                   <li><a href="rowing.html">Rowing</a></li>
                   <li><a href="hockey.html">Hockey</a></li>
                   <li><a href="computer-science.html">Computer Science</a></li>
@@ -54,11 +55,32 @@ permalink: /404.html
       </div>
     </nav>
 		<center>
-			<h1><strong>Error 404</strong>.  Page not found</h1>
-			<p>The requested URL was not found on this server.</p>
-			<p>If you think this was a mistake, contact IT HelpDesk at <a href="mailto:helpdesk@michaelbateman.ca?Subject=Error%20404%20Page%20Not%20Found">helpdesk@michaelbateman.ca</a>.</p>
-			<a href="../index.html"><button class="btn btn-primary">Return Home</button></a>
-			<button type="button" class="btn btn-default" onclick="goBack()">Go Back</button>
+      <div>
+        <div>
+          <h1>
+            <strong>Error 404!</strong> Page not found...
+          </h1>
+        </div>
+        <div>
+          <p>The requested URL was not found on this server.</p>
+        </div>
+        <div>
+          <p>If you think this was a mistake, contact IT HelpDesk at <a href="mailto:helpdesk@michaelbateman.ca?Subject=Error%20404%20Page%20Not%20Found">helpdesk@michaelbateman.ca</a>.</p>
+        </div>
+        <div>
+          <p>
+            <a href="https://en.wikipedia.org/wiki/HTTP_404">
+              Learn more about error 404
+            </a>
+          </p>
+        </div>
+        <div>
+          <a href="index.html">
+            <button type="button" class="btn btn-primary">Go Home</button>
+          </a>
+          <button type="button" class="btn btn-default" onclick="goBack()">Go Back</button>
+        </div>
+      </div>
 			<script>
 				function goBack() {
     			window.history.back();
