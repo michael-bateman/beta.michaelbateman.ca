@@ -9,10 +9,9 @@
     <script src="css/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
-      var sessionTimeout = 1; //hours
-      var loginDuration = new Date();
-      loginDuration.setTime(loginDuration.getTime()+(sessionTimeout*60*60*1000));
-      document.cookie = "CrewCentreSession=Valid; "+loginDuration.toGMTString()+"; path=/";
+      if (document.cookie.indexOf("SiteSession=Valid") == -1) {
+        location.href = "login/index.html";
+      }
     </script>
   </head>
   <body>
