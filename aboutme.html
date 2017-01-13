@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/navbar.css">
     <script src="css/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      if (document.cookie.indexOf("CrewCentreSession=Valid") == -1) {
+        location.href = "/Login.html";
+      }
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">

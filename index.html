@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="css/navbar.css">
     <script src="css/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      var sessionTimeout = 1; //hours
+      var loginDuration = new Date();
+      loginDuration.setTime(loginDuration.getTime()+(sessionTimeout*60*60*1000));
+      document.cookie = "CrewCentreSession=Valid; "+loginDuration.toGMTString()+"; path=/";
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
