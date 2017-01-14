@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Dashboard</title>
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/dashboard.css" rel="stylesheet">
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      if (document.cookie.indexOf("AdminPortal=Valid") == -1) {
+        location.href = "../index.html";
+      }
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Beta Portal</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="{{ site.baseurl }}/login/cookie.html">Website</a></li>
+            <li><a href="mailto:helpdesk@michaelbateman.ca">Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="news.html">News</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Welcome!</h1>
+          <div>
+            <a href="{{ site.baseurl }}/login/cookie.html">
+              <button class="btn btn-primary btn-block">
+                Visit Site
+              </button>
+            </a>
+          </div>
+          <div style="padding-top: 10px">
+            <a href="mailto:helpdesk@michaelbateman.ca?Subject=Beta%20Bug&Body=A%20bug%20was%20found%20on%20Michael's%20website%0D%0A//A%20HelpDesk%20staff%20member%20will%20contact%20you%20within%2048%20hours%20regarding%20your%20bug%20report//%0D%0A//Please%20type%20your%20issue%20below%20this%20line//%0D%0A-->%20Dear%20HelpDesk,%0D%0A">
+              <button class="btn btn-default btn-block">
+                Report a bug
+              </button>
+            </a>
+          </div>
+          <div style="padding-top: 20px">
+            <h3>Alpha Website</h3>
+            <iframe src="http://michaelbateman.ca" width="100%" height="600px"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
