@@ -40,7 +40,7 @@ The current alpha release of the website can be found on the [michaelbateman.ca 
 ### Setup
 *Notice: We are currently working on instructions to setup on a Windows (i.e. non Unix system).  We suggest you setup the website on a Mac computer.*
 
-#### What you will need
+### What you will need
 * [Git](https://git-scm.com), to clone the repository
 * Plain Text Editor - TextEdit comes pre-installed on Mac's.  My favourite is [Sublime Text](https://www.sublimetext.com)
 * Browser
@@ -48,22 +48,22 @@ The current alpha release of the website can be found on the [michaelbateman.ca 
 Please ensure that you copy and paste these commands exactly, otherwise, you may not be able to setup the website.
 
 1. Clone the repository
-```
+```bash
 $ git clone https://github.com/michael-bateman/beta.michaelbateman.ca.git
 ```
 2. Go to the `cookie-checker.js` file located in the `scripts` folder.
 3. Comment out the whole script (3 lines of code) by typing `//` at the beginning of each line
 4. Go to the directory
-```
+```bash
 $ cd beta.michaelbateman.ca
 ```
 5. Open the website
-```
+```bash
 $ open ./index.html
 ```
 
-#### Access Code
+## Access Code
 If you would like to test my beta website, please send me an email at info@michaelbateman.ca.  Without the beta access code, you will be unable to access my beta website on the web.  You will still be able to access my stable website.
 
-#### Warning:
+## Issues:
 You may find some bugs on this website.  Please email me or in [issue tracking](https://github.com/michael-bateman/beta.michaelbateman.ca/issues) an if you find any.
