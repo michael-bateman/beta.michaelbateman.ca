@@ -23,9 +23,11 @@ Content on both website are fairly similar.  The main differences on the website
  
 ##### Beta Website
 * Soon
-  - Revamped Login System
+  - New dashboard
 * Near Future
   - Customized dashboard to submit bugs
+* Far Away
+  - Online beta registration
 
 + Everything the stable website contains
 
