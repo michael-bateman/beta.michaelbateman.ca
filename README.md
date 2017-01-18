@@ -35,7 +35,7 @@ Content on both website are fairly similar.  The main differences on the website
 Want to help me with my website? Awesome! Please read the following to ensure proper setup.
 
 ### Notes
-The current alpha release of the website can be found on the [here](https://github.com/michael-bateman/michaelbateman.ca/)and can be viewed online at http://michaelbateman.ca
+The current alpha release of the website can be found on the [here](https://github.com/michael-bateman/michaelbateman.ca/) and can be viewed online at http://michaelbateman.ca
 
 ### Setup
 *Notice: We are currently working on instructions to setup on a Windows (i.e. non Unix system).  We suggest you setup the website on a Mac computer.*
