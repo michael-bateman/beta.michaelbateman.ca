@@ -35,7 +35,7 @@ Content on both website are fairly similar.  The main differences on the website
 If you would like to test my beta website, please send me an email at info@michaelbateman.ca.  Without the beta access code, you will be unable to access my beta website.  You will still be able to access my stable website.
 
 ### Help Me
-If you would like to help me improve my projects, please fork this project NOT my stable project.  Then submit a merge request when finished.
+If you would like to help me improve my projects, please fork this project NOT my stable project.  Then submit a pull request when finished.
 #### Forking Instructions
 Due to the login system, please follow these instructions to ensure you will be able to access the website from your machine
 
