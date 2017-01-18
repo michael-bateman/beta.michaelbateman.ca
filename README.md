@@ -31,7 +31,7 @@ Content on both website are fairly similar.  The main differences on the website
 
 + Everything the stable website contains
 
-### Development
+## Development
 Want to help me with my website? Awesome! Please read the following to ensure proper setup.
 
 ### Notes
