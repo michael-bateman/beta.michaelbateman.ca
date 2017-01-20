@@ -67,4 +67,4 @@ $ open ./index.html
 If you would like to test my beta website, please send me an email at info@michaelbateman.ca.  Without the beta access code, you will be unable to access my beta website on the web.  You will still be able to access my stable website.
 
 ## Issues:
-You may find some bugs on this website.  Please email me or in [issue tracking](https://github.com/michael-bateman/beta.michaelbateman.ca/issues) an if you find any.
+You may find some bugs on this website.  Please email me or let me know in [issue tracking](https://github.com/michael-bateman/beta.michaelbateman.ca/issues) an if you find any.
