@@ -13,6 +13,7 @@ Content on both website are fairly similar.  The main differences on the website
 ### Stable Website
 * Soon
   - More Content
+  - Remove elements that are not supported in HTML 5
 * Near Future
   - Implementation of Boostrap 4
   - New Colour Scheme
