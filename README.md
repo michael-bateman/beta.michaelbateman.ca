@@ -1,10 +1,6 @@
 # beta.michaelbateman.ca
 
-## Stable Release
-- Can be found on the web (http://michaelbateman.ca)
-- Repository (https://github.com/michael-bateman/michaelbateman.ca)
-
-#### v1.0
+__There are massive upgrades taking place right now...  You can visit the old website at [michaelbateman.ca](http://michaelbateman.ca)__
 
 ### Differences
 Content on both website are fairly similar.  The main differences on the website are the layout.
@@ -40,11 +36,6 @@ The current alpha release of the website can be found on the [here](https://gith
 
 ### Setup
 *Notice: We are currently working on instructions to setup on a Windows (i.e. non Unix system).  We suggest you setup the website on a Mac computer.*
-
-### What you will need
-* [Git](https://git-scm.com), to clone the repository
-* Plain Text Editor - TextEdit comes pre-installed on Mac's.  My favourite is [Sublime Text](https://www.sublimetext.com)
-* Browser
 
 Please ensure that you copy and paste these commands exactly, otherwise, you may not be able to setup the website.
 
