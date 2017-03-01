@@ -1,0 +1,47 @@
+/* Fonts */
+
+@font-face {
+	font-family: Ubuntu;
+	src:url(../fonts/ubuntu.ttf);
+}
+
+/* Main CSS */
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.card-columns {
+	column-count: 4;
+}
+
+.card-columns-2 {
+	column-count: 2;
+}
+
+@media (max-width: 990px) {
+
+	.card-columns-2 {
+		column-count: 1;
+	}
+}
+
+footer {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.footer {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
